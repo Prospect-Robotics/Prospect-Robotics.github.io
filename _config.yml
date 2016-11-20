@@ -12,11 +12,12 @@ email:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.prospectrobotics.com" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
+  #twitter: 
   github: https://github.com/Prospect-Robotics
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
+  #linkedin-square: 
+  facebook-official: https://www.facebook.com/team2813/
+  bluealliance: https://www.thebluealliance.com/team/2813
+  #google-plus-square: 
   #email: /contact/
   #flickr:
   #instagram:
