@@ -1,4 +1,5 @@
 <!-- Header -->
+<!--
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
   <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
   <nav id="nav">
@@ -12,10 +13,37 @@
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}
-            {% endfor %}
+            {% endfor %}  
           </ul>
         </div>
       </li>
     </ul>
   </nav>
 </header>
+-->
+ <header id="header">
+  <h1><a href="/index.html">PROSPECT ROBOTICS</a></h1>
+  <nav id="nav">
+    <ul>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>    
+			<li><a href="/first.html">FIRST</a></li> 
+			<li><a href="/aboutUs.html">About Us</a></li>
+			<li><a href="/robots.html">Robots</a></li>
+			<li><a href="/competition.html">Competitions</a></li> 
+			<li><a href="/communityOutreach.html">Community Outreach</a></li>   
+			<li><a href="/sponsors.html">Sponsors</a></li>  
+			<li><a href="/team.html">Our Team</a></li>
+			<li><a href="/mentors.html">Mentors</a></li>   
+            <li><a href="/events.html">Events</a></li>
+			<li><a href="/media.html">Media</a></li>   
+            <li><a href="/subscribe.html">Subscribe</a></li>        
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  </header>

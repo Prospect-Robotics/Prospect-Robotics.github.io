@@ -101,7 +101,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		text-transform: none;
 
 		a {
 			color: inherit;
@@ -824,7 +824,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -849,10 +849,18 @@ $baseurl: '{{ site.baseurl }}/images';
 			width: 100%;
 		}
 
+		&.xsmall {
+			font-size: 0.30em;
+		}
+		
 		&.small {
 			font-size: 0.8em;
 		}
 
+		&.medium {
+			font-size: 1.0em;
+		}
+		
 		&.big {
 			font-size: 1.35em;
 		}
